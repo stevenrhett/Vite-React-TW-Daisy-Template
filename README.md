@@ -10,29 +10,29 @@ Before you begin, ensure you have the following installed:
 
 ## Installation
 
-1. Clone this repository:
+#### Clone this repository:
 ```bash
 git clone https://github.com/stevenrhett/react-setup-script.git
 ```
 
-1. Navigate into the project directory:
+#### Navigate into the project directory:
 ```bash
 cd react-setup-script
  ```
-1. Make the script executable:
->>>>>>> 7156c00 (commit sh files)
+
+#### Make the script executable:
 ```bash
  chmod +x setup-react-project.sh
 ```
 
 ## Usage
 
-Run the script to create a new project:
+#### Run the script to create a new project:
 ```bash
 ./setup-react-project.sh
 ```
 
-You will be prompted to enter the project name. The script will set up the project, install dependencies, and start the development server.
+#### You will be prompted to enter the project name. The script will set up the project, install dependencies, and start the development server.
 
 ## Example
 ```bash
@@ -40,39 +40,11 @@ You will be prompted to enter the project name. The script will set up the proje
 Enter your project name: my-new-project
 ```
 
-This will:
-- Create a new Vite + React project
-- Set up Tailwind CSS and DaisyUI
-- Install all dependencies
-- Start the development server at `http://localhost:5173`
+#### This will:
+* Create a new Vite + React project
+* Set up Tailwind CSS and DaisyUI
+* Install all dependencies 
+* Start the development server at `http://localhost:5173`
 
 ## License
-
 This project is licensed under the MIT License.
-
-### 2. **Move Technical Content to Separate Files**
-
-#### **`.gitignore`**
-Include this file in the root of the repository:
-
-```gitignore
-# Node modules
-node_modules
-
-# Logs
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-
-# Build output
-dist
-
-# .env environment variable file
-.env
-
-# MacOS files
-.DS_Store
-
-# VS Code workspace settings
-.vscode
-```
