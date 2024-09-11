@@ -15,12 +15,20 @@ Before you begin, ensure you have the following installed:
 git clone https://github.com/stevenrhett/react-setup-script.git
 ```
 
+<<<<<<< HEAD
 2. Navigate into the project directory:
+=======
+1. Navigate into the project directory:
+>>>>>>> 7156c00 (commit sh files)
 ```bash
 cd react-setup-script
  ```
 
+<<<<<<< HEAD
 3. Make the script executable:
+=======
+1. Make the script executable:
+>>>>>>> 7156c00 (commit sh files)
 ```bash
  chmod +x setup-react-project.sh
 ```

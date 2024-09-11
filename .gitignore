@@ -102,7 +102,10 @@ dist
 
 # vuepress v2.x temp and cache directory
 .temp
+<<<<<<< HEAD
 .cache
+=======
+>>>>>>> 7156c00 (commit sh files)
 
 # Docusaurus cache and generated files
 .docusaurus
